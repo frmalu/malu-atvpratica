@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Online Malu</title>
+    <style>
+        #bg {
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            z-index: -1;
+        }
+        a {
+          color: hotpink;
+        }
+        body {
+            color:snow;
+            font-family: monospace;
+        }
+        h1 {
+            font-family: fantasy;
+            width: 200px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: auto;
+            color: tan;
+        }
+        h2 {
+            font-family: serif;
+            width: 500px; 
+            margin-left: 0;
+            margin-right: auto;
+            padding: auto;
+            color: salmon;
+        }
+    </style>
+</head>
+<body>
+    <video autoplay muted loop id="bg">
+        <source src="bg.mp4" type="video/mp4">
+      </video>
+    <h1><i><b>Malu Freitas</b></i></h1>
+    <h2><i>Menu</i></h2>
+    <ul>
+        <li><a href="#sobremim">Sobre mim</a></li>
+        <li><a href="#educacao">Educação</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#formulario">Entre em contato</a></li>
+    </ul>
+    <br>
+    <h2 id="sobremim"><i>Sobre mim</i></h2>
+    <details>
+        <summary>Olá, meu nome é Malu! Aqui tem um pouco mais sobre mim! ⤵</summary>
+        <p>
+            Tenho 23 anos, moro em Roraima, sou estudante e no momento trabalho como técnico de redes e suporte em uma empresa provedora de internet. Tenho muitos hobbies diferentes, alguns deles são: desenhar, pintar, fazer peças de argila, jogar no computador e assistir filmes. Também gosto muito de ouvir música, ouço a quase todo momento enquanto faço diversas coisas diferentes no meu dia, que é quase sempre o mesmo: acordo, estudo pela manhã, trabalho pela tarde e faço algo que gosto pela noite. Durante as semanas geralmente são coisas simples como jogar e assistir algo, durante os fins de semana saio com meus amigos.
+        </p>
+        <p>
+            Gosto muito do mar, mas como moro em Roraima sempre demoro muito tempo para viajar e ir à praia. Mas temos rios, que são ótimos também! Me interesso por tecnologia desde sempre mas escolhi estudar e trabalhar na área pelas diversas possibilidades que me oferece e pela variedade de coisas que posso escolher aprender.
+        </p>
+        <p>
+            Como sempre gostei de criar coisas, até agora minhas disciplinas favoritas foram as que englobaram isso de alguma forma, mesmo que sutilmente, como as duas que resultaram nos pequenos projetos disponíveis nessa página. Com o tempo melhorarei minhas habilidades e farei muitos outros diferentes, melhores e mais completos para que eu possa me tornar uma boa profissional.
+        </p>
+      </details>
+    <br>
+    <h2 id="educacao"><i>Educação</i></h2>
+    <p>
+        <ul>
+            <li>Ensino médio: C.E.I. COLMEIA (2017)</li>
+            <li>Ensino superior: Centro Universitário Internacional UNINTER - Bacharelado em Engenharia de Software (2023 - atualmente no 4° semestre)</li>
+            <li>Idiomas: Fluência em inglês, com certificação da Wizard Idiomas (2017) e experiência em escola bilíngue e aulas particulares (incluindo montagem de material e planejamento)</li>
+        </ul>
+    </p>
+    <br>
+    <h2 id="projetos"><i>Projetos</i></h2>
+    <p>
+        <ul>
+            <li><a href="https://www.figma.com/design/F0WkAcLrpi10BxjW0Gud6W/CENTAURO?node-id=0-1&t=tZhJYz6DalW9ab1u-1">PROTÓTIPO APP DA CENTAURO (Figma)</a>: Foi um protótipo de alta fidelidade que mostra 2 funcionalidades presentes no aplicativo original:
+            <ol>
+                <li>Detalhes de um produto</li>
+                <li>Telas de Login</li>
+            </ol>
+            Realizado para a disciplina de Design para Aplicativos Móveis.</li>
+            <br>
+            <li><a href="https://www.figma.com/design/IJt5efvZKro9KcuKXoZ2KZ/MF---APP-CLIENTE?node-id=0-1&t=bUuFLIER1q3mBlFP-1">PROTÓTIPO APP NATURALAS (Figma)</a>: Este foi um protótipo de média fidelidade do app de uma empresa fictícia criada para a realização do trabalho. Foram feitas versões de baixa e média fidelidade dos aplicativos na versão do cliente e do administrador e esta é a da versão do cliente, com interações simples.
+            <br>
+            Realizado para a disciplina de Fundamentos de Design de Sistemas.</li>
+        </ul>
+    </p>
+    <br>
+    <h2 id="formulario"><i>Entre em contato</i></h2>
+    <form action="" method="">
+        <table>
+            <tr>
+                <th><label for ="nome">Seu nome:</label></th>
+                <td><input type="text" name="nome" id="nome"></td>
+            </tr>
+            <tr>
+                <th><label for ="email">Seu e-mail:</label></th>
+                <td><input type="email" name="email" id="email"></td>
+            </tr>
+            <tr>
+                <th><label for ="msg">Digite uma mensagem:</label></th>
+                <td><textarea name="msg" rows="5" cols="40">Escreva sua mensagem aqui</textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button>Enviar</button></td>
+            </tr>
+        </table>
+    </form>
+    <br><br><br><br><br><br>
+    <p>
+        Feito em agosto de 2024 por Maria Lúcia A. de Freitas - RU 4440965
+        <br>
+        Disciplina: Aplicações Web e Móveis
+        <br>
+        Centro Universitário Internacional UNINTER
+    </p>
+</body>
+</html>
